@@ -1,0 +1,9 @@
+.user-page-container {
+  display: grid;
+  grid-template: "auto";
+  gap: 20px;
+}
+
+.user-page-container h4 {
+  font-weight: bold;
+}

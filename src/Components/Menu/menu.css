@@ -1,0 +1,18 @@
+.menu-link {
+  text-decoration: none;
+}
+.menu-link:link {
+  color: unset;
+}
+
+.menu-link:visited {
+  color: unset;
+}
+
+.menu-link:hover {
+  color: unset;
+}
+
+.menu-link:active {
+  color: unset;
+}

@@ -1,0 +1,9 @@
+.books-page-container {
+  display: grid;
+  grid-template: "auto";
+  gap: 20px;
+  height: 100%;
+}
+.books-page-container h4 {
+  font-weight: bold;
+}

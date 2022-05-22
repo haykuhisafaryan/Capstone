@@ -1,0 +1,5 @@
+.books-list-container {
+  display: grid;
+  grid-template-areas: "auto auto auto auto";
+  grid-gap: 48px;
+}

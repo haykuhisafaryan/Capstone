@@ -1,0 +1,21 @@
+.edit-button-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.fields-container {
+  display: grid;
+  grid-template: "auto";
+  gap: 20px;
+}
+
+.edit-book-field {
+  width: 100%;
+}
+
+.edit-button-container {
+  display: grid;
+  grid-template: "auto auto";
+  gap: 20px;
+}

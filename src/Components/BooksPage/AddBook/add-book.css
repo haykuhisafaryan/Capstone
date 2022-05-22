@@ -1,0 +1,41 @@
+.create-button-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.create-book-fields-container {
+  display: grid;
+  grid-template: "auto";
+  gap: 20px;
+}
+
+.create-book-field {
+  width: 100%;
+}
+
+.create-button-container {
+  display: grid;
+  grid-template: "auto auto";
+  gap: 20px;
+}
+.create-book-upload-container {
+  display: grid;
+  grid-template: "auto auto";
+  gap: 20px;
+}
+
+.other-content-container {
+  display: grid;
+  grid-template: "auto";
+  gap: 20px;
+}
+
+.author-item-container {
+  display: grid;
+  grid-template: "auto auto";
+  gap: 20px;
+  width: fit-content;
+  align-content: center;
+  vertical-align: center;
+}
