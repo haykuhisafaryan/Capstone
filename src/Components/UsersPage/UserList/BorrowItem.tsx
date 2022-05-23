@@ -7,7 +7,7 @@ function BorrowItem({ borrow }: BorrowItemProps) {
   return (
     <TableRow key={borrow.bookInstanceId + borrow.createDate}>
       <TableCell component="th" scope="row">
-        {borrow.book?.title} by {borrow.book?.author?.name}
+      { borrow.book ? `${borrow.book.title} by ${borrow.book.author?.name}` : 'Book not available'}
       </TableCell>
       <TableCell>{borrow.bookInstanceId}</TableCell>
       <TableCell align="right">
